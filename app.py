@@ -7,7 +7,7 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill
 import pandas as pd
 import streamlit as st
-
+import streamlit.components.v1 as components
 # ----------------- CONFIGURACIÓN DE PÁGINA -----------------
 st.set_page_config(
     page_title="SURA - Censo y Tratamientos Domiciliarios",
